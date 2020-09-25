@@ -100,3 +100,4 @@ D:\Visual studio code\HelloWebForm\WingtipToys\bin\Microsoft.CodeDom.Providers.D
 D:\Visual studio code\HelloWebForm\WingtipToys\obj\Debug\WingtipToys.csproj.CopyComplete
 D:\Visual studio code\HelloWebForm\WingtipToys\obj\Debug\WingtipToys.dll
 D:\Visual studio code\HelloWebForm\WingtipToys\obj\Debug\WingtipToys.pdb
+D:\Visual studio code\HelloWebForm\WingtipToys\obj\Debug\WingtipToys.csprojAssemblyReference.cache

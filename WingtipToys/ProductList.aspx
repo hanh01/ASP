@@ -10,7 +10,7 @@
                 DataKeyNames="ProductID" GroupItemCount="4"
                 ItemType="WingtipToys.Models.Product" SelectMethod="GetProducts">
                 <EditItemTemplate>
-                    <table>
+                    <table runat="server">
                         <tr>
                             <td>
                                 No data was returned.
@@ -40,6 +40,11 @@
                                         <span class="ProductName"><%#:Item.ProductName %></span>
                                     </a><br />
                                     <span><b>Price:</b><%#:String.Format("{0:c}",Item.UnitPrice) %></span><br />
+                                    <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>">
+                                        <span class="ProductListItem">
+                                            <b>Add To Cart</b>
+                                        </span>
+                                    </a>
                                 </td>
                             </tr>
                             <tr>
